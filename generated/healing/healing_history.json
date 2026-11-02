@@ -1,0 +1,29 @@
+[
+    {
+        "attempt": 1,
+        "execution_attempt": 1,
+        "status": "NOT_HEALABLE",
+        "category": "UNKNOWN",
+        "analysis": {
+            "pom_file": "ModernEcommerceProductSearchandBagValidationPage.js",
+            "script_file": "Unknown",
+            "line_number": "80",
+            "missing_locator": "Error",
+            "category": "UNKNOWN",
+            "error_type": "Playwright runtime error",
+            "root_cause": "The failure is not a confirmed missing-locator failure. Smart waits may handle synchronization delays, while assertion, navigation, environment, and syntax failures must remain real failures.",
+            "impact": "Test execution failed.",
+            "severity": "High",
+            "suggested_fix": "Review the failing step, runtime data, page state, and the generated execution report.",
+            "suggested_code": "",
+            "recommendation": "Do not patch the Page Object unless a missing or stale locator is confirmed.",
+            "confidence": "High",
+            "auto_fix_possible": "NO"
+        },
+        "auto_fix_applied": false,
+        "reason": "The failure did not match a safe automatic-healing category.",
+        "failed_locator": null,
+        "failed_method": null,
+        "current_url": "https://github.com/npm/cli/releases/tag/v12.2.1"
+    }
+]

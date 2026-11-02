@@ -1,0 +1,74 @@
+[
+    {
+        "scenario_id": "TS_MYNTRA_001",
+        "scenario_name": "Verify successful end-to-end product flow from search to bag removal",
+        "type": "Positive",
+        "priority": "High"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_002",
+        "scenario_name": "Verify fallback size selection when size 40 is unavailable",
+        "type": "Positive",
+        "priority": "Medium"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_003",
+        "scenario_name": "Verify search results for invalid or non-existent product keywords",
+        "type": "Negative",
+        "priority": "Medium"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_004",
+        "scenario_name": "Verify system behavior when adding an item to the bag without selecting a size",
+        "type": "Negative",
+        "priority": "High"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_005",
+        "scenario_name": "Validate consistency of product price between PDP and Shopping Bag",
+        "type": "Validation",
+        "priority": "High"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_006",
+        "scenario_name": "Validate that bag item count updates accurately upon adding and removing items",
+        "type": "Validation",
+        "priority": "High"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_007",
+        "scenario_name": "Verify application behavior with extreme search query lengths",
+        "type": "Boundary",
+        "priority": "Low"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_008",
+        "scenario_name": "Verify navigation and interaction during high-latency network conditions",
+        "type": "Boundary",
+        "priority": "Medium"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_009",
+        "scenario_name": "Verify that no sensitive user data is exposed in URL parameters or browser console",
+        "type": "Security",
+        "priority": "High"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_010",
+        "scenario_name": "Verify that the bag contents are not accessible by unauthorized sessions (CORS/Session check)",
+        "type": "Security",
+        "priority": "High"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_011",
+        "scenario_name": "Verify user-friendly messaging when the bag is empty",
+        "type": "Usability",
+        "priority": "Medium"
+    },
+    {
+        "scenario_id": "TS_MYNTRA_012",
+        "scenario_name": "Verify responsive behavior of the Add to Bag button and removal confirmation dialog",
+        "type": "Usability",
+        "priority": "Medium"
+    }
+]

@@ -1,0 +1,13 @@
+[
+    {
+        "tc_id": "TC_MYNTRA_001",
+        "search_term": "Roadster Men Black Casual Shirt",
+        "size_selection": "M",
+        "expected_removal_message": "Item removed from bag"
+    },
+    {
+        "tc_id": "TC_MYNTRA_004",
+        "product_url_suffix": "men-shirts/roadster/roadster-men-black-shirt/1234567/buy",
+        "error_message": "Please select a size"
+    }
+]

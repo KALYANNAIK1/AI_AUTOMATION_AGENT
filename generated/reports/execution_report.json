@@ -1,0 +1,8 @@
+{
+    "execution_date": "2026-11-02 15:06:12",
+    "status": "FAILED",
+    "returncode": 1,
+    "command": "\"C:\\Program Files\\nodejs\\npx.cmd\" playwright test --headed --project=chromium --workers=1 --max-failures=1 Agent_AUTOMATION_AI/generated/tests/ModernEcommerceProductSearchandBagValidation_20261102_150558.spec.js",
+    "stdout": "",
+    "stderr": "Error: Project(s) \"chromium\" not found. Available projects: \"\"\n    at filterProjects (C:\\Users\\Kalyan\\node_modules\\playwright\\lib\\runner\\projectUtils.js:80:11)\n    at runTests (C:\\Users\\Kalyan\\node_modules\\playwright\\lib\\program.js:208:42)\n    at async i.<anonymous> (C:\\Users\\Kalyan\\node_modules\\playwright\\lib\\program.js:70:7)\nnpm notice\nnpm notice New major version of npm available! 11.16.0 -> 12.2.1\nnpm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.1\nnpm notice To update run: npm install -g npm@12.2.1\nnpm notice\n"
+}

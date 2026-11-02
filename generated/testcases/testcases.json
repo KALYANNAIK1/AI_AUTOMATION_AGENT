@@ -1,0 +1,40 @@
+[
+    {
+        "tc_id": "TC_MYNTRA_001",
+        "scenario_id": "TS_MYNTRA_001",
+        "summary": "Verify successful end-to-end product flow from search to bag removal",
+        "priority": "High",
+        "type": "Positive",
+        "precondition": "User is on the Myntra homepage",
+        "steps": [
+            "Search for a valid product",
+            "Select the product and add to bag",
+            "Navigate to the shopping bag",
+            "Remove the item from the bag"
+        ],
+        "actual_result": [
+            "Product is added successfully and removed upon request"
+        ],
+        "expected_result": [
+            "Product flow is seamless and item is successfully removed from the bag"
+        ]
+    },
+    {
+        "tc_id": "TC_MYNTRA_004",
+        "scenario_id": "TS_MYNTRA_004",
+        "summary": "Verify system behavior when adding an item to the bag without selecting a size",
+        "priority": "High",
+        "type": "Negative",
+        "precondition": "User is on the Product Description Page (PDP) for a product with multiple sizes",
+        "steps": [
+            "Do not select any size",
+            "Click on the 'Add to Bag' button"
+        ],
+        "actual_result": [
+            "System fails to add item and displays an error"
+        ],
+        "expected_result": [
+            "An appropriate error message requesting size selection should be displayed"
+        ]
+    }
+]

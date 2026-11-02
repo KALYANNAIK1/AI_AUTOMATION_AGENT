@@ -1,0 +1,14 @@
+{
+  "name": "agent-automation-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-assisted QA automation framework with generated Playwright tests",
+  "scripts": {
+    "test": "playwright test",
+    "test:generated": "playwright test generated/tests",
+    "report": "playwright show-report generated/reports/playwright-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.56.0"
+  }
+}

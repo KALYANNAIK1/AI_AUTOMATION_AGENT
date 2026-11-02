@@ -1,0 +1,2170 @@
+{
+    "onlineSHOPPINGMADEEASYATMYNTRA": {
+        "locator": "page.getByText(\"ONLINE SHOPPING MADE EASY AT MYNTRA\", { exact: true }).first()",
+        "type": "h1",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "bestONLINESHOPPINGSITEININDIAFORFASHION": {
+        "locator": "page.getByText(\"BEST ONLINE SHOPPING SITE IN INDIA FOR FASHION\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "affordableFASHIONATYOURFINGERTIPS": {
+        "locator": "page.getByText(\"AFFORDABLE FASHION AT YOUR FINGERTIPS\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "myntraINSIDER": {
+        "locator": "page.getByText(\"MYNTRA INSIDER\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "myntraStudioThePersonalisedFashionFeedYouWouldnTWantToMissOutOn": {
+        "locator": "page.getByText(\"Myntra Studio - The Personalised Fashion Feed You Wouldn’t Want To Miss Out On\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "myntraAPP": {
+        "locator": "page.getByText(\"MYNTRA APP\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "historyOFMYNTRA": {
+        "locator": "page.getByText(\"HISTORY OF MYNTRA\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "shopONLINEATMYNTRAWITHCOMPLETECONVENIENCE": {
+        "locator": "page.getByText(\"SHOP ONLINE AT MYNTRA WITH COMPLETE CONVENIENCE\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "img4": {
+        "locator": "page.locator(\"img\").first()",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "searchForProductsBrandsAndMore": {
+        "locator": "page.getByPlaceholder(\"Search for products, brands and more\")",
+        "type": "input",
+        "priority": 1,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "item1Button": {
+        "locator": "page.getByText(\"1\", { exact: true }).first()",
+        "type": "button",
+        "priority": 4,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "item2Button": {
+        "locator": "page.getByText(\"2\", { exact: true }).first()",
+        "type": "button",
+        "priority": 4,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "item3Button": {
+        "locator": "page.getByText(\"3\", { exact: true }).first()",
+        "type": "button",
+        "priority": 4,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "item4Button": {
+        "locator": "page.getByText(\"4\", { exact: true }).first()",
+        "type": "button",
+        "priority": 4,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "headerLogo": {
+        "locator": "page.locator(\"[class~=\\\"sprites-headerLogo\\\"]\").first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "men": {
+        "locator": "page.getByText(\"MEN\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "women": {
+        "locator": "page.getByText(\"WOMEN\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "kids": {
+        "locator": "page.getByText(\"KIDS\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "home": {
+        "locator": "page.getByText(\"HOME\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "beauty": {
+        "locator": "page.getByText(\"BEAUTY\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "genz": {
+        "locator": "page.getByText(\"GENZ\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "studio": {
+        "locator": "page.getByText(\"STUDIO\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "a437": {
+        "locator": "page.locator(\"a\").first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "onlineSHOPPING": {
+        "locator": "page.getByText(\"ONLINE SHOPPING\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "men2": {
+        "locator": "page.getByText(\"Men\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "women2": {
+        "locator": "page.getByText(\"Women\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "kids2": {
+        "locator": "page.getByText(\"Kids\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "home2": {
+        "locator": "page.getByText(\"Home\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "beauty2": {
+        "locator": "page.getByText(\"Beauty\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "genz2": {
+        "locator": "page.getByText(\"Genz\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "giftCards": {
+        "locator": "page.getByText(\"Gift Cards\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "myntraInsider": {
+        "locator": "page.getByText(\"Myntra Insider\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "blog": {
+        "locator": "page.getByText(\"Blog\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "careers": {
+        "locator": "page.getByText(\"Careers\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "siteMap": {
+        "locator": "page.getByText(\"Site Map\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "corporateInformation": {
+        "locator": "page.getByText(\"Corporate Information\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "whitehat": {
+        "locator": "page.getByText(\"Whitehat\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "cleartrip": {
+        "locator": "page.getByText(\"Cleartrip\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "myntraGlobal": {
+        "locator": "page.getByText(\"Myntra Global\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "contactUs": {
+        "locator": "page.getByText(\"Contact Us\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "faq": {
+        "locator": "page.getByText(\"FAQ\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "tC": {
+        "locator": "page.getByText(\"T&C\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "termsOfUse": {
+        "locator": "page.getByText(\"Terms Of Use\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "trackOrders": {
+        "locator": "page.getByText(\"Track Orders\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "shipping": {
+        "locator": "page.getByText(\"Shipping\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "cancellation": {
+        "locator": "page.getByText(\"Cancellation\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "privacyPolicy": {
+        "locator": "page.getByText(\"Privacy policy\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "grievanceRedressal": {
+        "locator": "page.getByText(\"Grievance Redressal\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "fssaiFoodSafetyConnectApp": {
+        "locator": "page.getByText(\"FSSAI Food Safety Connect app\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "makeup": {
+        "locator": "page.getByText(\"Makeup\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "dressesForGirls": {
+        "locator": "page.getByText(\"Dresses For Girls\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "tShirts": {
+        "locator": "page.getByText(\"T-Shirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "sandals": {
+        "locator": "page.getByText(\"Sandals\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "headphones": {
+        "locator": "page.getByText(\"Headphones\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "babydolls": {
+        "locator": "page.getByText(\"Babydolls\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "blazersForMen": {
+        "locator": "page.getByText(\"Blazers For Men\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "handbags": {
+        "locator": "page.getByText(\"Handbags\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "ladiesWatches": {
+        "locator": "page.getByText(\"Ladies Watches\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "bags": {
+        "locator": "page.getByText(\"Bags\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "sportShoes": {
+        "locator": "page.getByText(\"Sport Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "reebokShoes": {
+        "locator": "page.getByText(\"Reebok Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "pumaShoes": {
+        "locator": "page.getByText(\"Puma Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "boxers": {
+        "locator": "page.getByText(\"Boxers\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "wallets": {
+        "locator": "page.getByText(\"Wallets\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "tops": {
+        "locator": "page.getByText(\"Tops\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "earrings": {
+        "locator": "page.getByText(\"Earrings\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "fastrackWatches": {
+        "locator": "page.getByText(\"Fastrack Watches\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "kurtis": {
+        "locator": "page.getByText(\"Kurtis\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "nike": {
+        "locator": "page.getByText(\"Nike\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "smartWatches": {
+        "locator": "page.getByText(\"Smart Watches\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "titanWatches": {
+        "locator": "page.getByText(\"Titan Watches\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "designerBlouse": {
+        "locator": "page.getByText(\"Designer Blouse\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "gowns": {
+        "locator": "page.getByText(\"Gowns\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "rings": {
+        "locator": "page.getByText(\"Rings\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "cricketShoes": {
+        "locator": "page.getByText(\"Cricket Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "forever21": {
+        "locator": "page.getByText(\"Forever 21\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "eyeMakeup": {
+        "locator": "page.getByText(\"Eye Makeup\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "photoFrames": {
+        "locator": "page.getByText(\"Photo Frames\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "punjabiSuits": {
+        "locator": "page.getByText(\"Punjabi Suits\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "bikini": {
+        "locator": "page.getByText(\"Bikini\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "myntraFashionShow": {
+        "locator": "page.getByText(\"Myntra Fashion Show\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "lipstick": {
+        "locator": "page.getByText(\"Lipstick\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "saree": {
+        "locator": "page.getByText(\"Saree\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "watches": {
+        "locator": "page.getByText(\"Watches\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "dresses": {
+        "locator": "page.getByText(\"Dresses\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "lehenga": {
+        "locator": "page.getByText(\"Lehenga\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "nikeShoes": {
+        "locator": "page.getByText(\"Nike Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "goggles": {
+        "locator": "page.getByText(\"Goggles\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "bras": {
+        "locator": "page.getByText(\"Bras\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "suit": {
+        "locator": "page.getByText(\"Suit\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "chinos": {
+        "locator": "page.getByText(\"Chinos\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "shoes": {
+        "locator": "page.getByText(\"Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "adidasShoes": {
+        "locator": "page.getByText(\"Adidas Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "woodlandShoes": {
+        "locator": "page.getByText(\"Woodland Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "jewellery": {
+        "locator": "page.getByText(\"Jewellery\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "designersSarees": {
+        "locator": "page.getByText(\"Designers Sarees\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "aFlipkartCompany": {
+        "locator": "page.getByText(\"A Flipkart company\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "item08040011450": {
+        "locator": "page.getByText(\"080‑40011450\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "clothing": {
+        "locator": "page.getByText(\"clothing\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "onlineShoppingForWomen": {
+        "locator": "page.getByText(\"Online shopping for women\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "sarees": {
+        "locator": "page.getByText(\"sarees\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "photoFrames2": {
+        "locator": "page.getByText(\"photo frames\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "myntraStudio": {
+        "locator": "page.getByText(\"Myntra Studio\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "android": {
+        "locator": "page.getByText(\"Android\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "ios": {
+        "locator": "page.getByText(\"IOS\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "gifts": {
+        "locator": "page.getByText(\"gifts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "initialPage",
+        "page_url": "https://www.myntra.com/"
+    },
+    "blackShirtsForMen": {
+        "locator": "page.getByText(\"Black Shirts For Men\", { exact: true }).first()",
+        "type": "h1",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrow": {
+        "locator": "page.getByText(\"Arrow\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "raymond": {
+        "locator": "page.getByText(\"Raymond\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "highlander": {
+        "locator": "page.getByText(\"HIGHLANDER\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadster": {
+        "locator": "page.getByText(\"Roadster\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "rareRABBIT": {
+        "locator": "page.getByText(\"RARE RABBIT\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "biograph": {
+        "locator": "page.getByText(\"BIOGRAPH\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "nautica": {
+        "locator": "page.getByText(\"Nautica\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "hereNOW": {
+        "locator": "page.getByText(\"HERE&NOW\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "tushreeBOUTIQUE": {
+        "locator": "page.getByText(\"TUSHREE BOUTIQUE\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowSport": {
+        "locator": "page.getByText(\"Arrow Sport\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "mischiefMONKEY": {
+        "locator": "page.getByText(\"MISCHIEF MONKEY\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "whiteHUSK": {
+        "locator": "page.getByText(\"WHITE HUSK\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "powerlook": {
+        "locator": "page.getByText(\"Powerlook\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "louisPhilippeJeans": {
+        "locator": "page.getByText(\"Louis Philippe Jeans\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "mydesignation": {
+        "locator": "page.getByText(\"MyDesignation\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "jackJones": {
+        "locator": "page.getByText(\"Jack & Jones\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "bsBLUESQUAD": {
+        "locator": "page.getByText(\"BS BLUE SQUAD\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "donVINO": {
+        "locator": "page.getByText(\"DON VINO\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "flyingMachine": {
+        "locator": "page.getByText(\"Flying Machine\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "cahoot": {
+        "locator": "page.getByText(\"CAHOOT\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "theBEARHOUSE": {
+        "locator": "page.getByText(\"THE BEAR HOUSE\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "gangsta": {
+        "locator": "page.getByText(\"GANGSTA\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "theIndianGarageCo": {
+        "locator": "page.getByText(\"The Indian Garage Co\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "mastHarbour": {
+        "locator": "page.getByText(\"Mast & Harbour\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "rCodeByTheRoadsterLifeCo": {
+        "locator": "page.getByText(\"R.Code by The Roadster Life Co.\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "theHouseOfPolo": {
+        "locator": "page.getByText(\"The House of Polo\", { exact: true }).first()",
+        "type": "h3",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "addOns": {
+        "locator": "page.getByText(\"Add-Ons\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "bundles": {
+        "locator": "page.getByText(\"Bundles\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "collar": {
+        "locator": "page.getByText(\"Collar\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "countryOfOrigin": {
+        "locator": "page.getByText(\"Country of Origin\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "craft": {
+        "locator": "page.getByText(\"Craft\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "fabrics": {
+        "locator": "page.getByText(\"Fabrics\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "fashionTrends": {
+        "locator": "page.getByText(\"Fashion Trends\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "slimFitOpaqueFormalShirt": {
+        "locator": "page.getByText(\"Slim Fit Opaque Formal Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "pureCottonFormalShirt": {
+        "locator": "page.getByText(\"Pure Cotton Formal Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "slimFitOpaqueCasualShirt": {
+        "locator": "page.getByText(\"Slim Fit Opaque Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "pureCottonCasualShirts": {
+        "locator": "page.getByText(\"Pure Cotton Casual Shirts\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menVynillShirt": {
+        "locator": "page.getByText(\"Men Vynill Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "pureCottonCasualShirt": {
+        "locator": "page.getByText(\"Pure Cotton Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menSEmbroideredResortShirt": {
+        "locator": "page.getByText(\"Men's Embroidered Resort Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "solidSlimFitShirt": {
+        "locator": "page.getByText(\"Solid Slim Fit Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "regularFitCheckedShirt": {
+        "locator": "page.getByText(\"Regular Fit Checked Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menRegularFitCasualShirt": {
+        "locator": "page.getByText(\"Men Regular Fit Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "slimPureCottonFormalShirt": {
+        "locator": "page.getByText(\"Slim Pure Cotton Formal Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "slimFitCasualShirt": {
+        "locator": "page.getByText(\"Slim Fit Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menBlackWhiteCheckShirt": {
+        "locator": "page.getByText(\"Men Black White Check Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "regularCheckedCasualShirt": {
+        "locator": "page.getByText(\"Regular Checked Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menOpaqueCasualShirt": {
+        "locator": "page.getByText(\"Men Opaque Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "formalPureCottonShirt": {
+        "locator": "page.getByText(\"Formal Pure Cotton Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "cottonCasualShirt": {
+        "locator": "page.getByText(\"Cotton Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "gear5BoxyFitShirt": {
+        "locator": "page.getByText(\"Gear 5 Boxy Fit Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "doublePocketCottonLongSleevesShirt": {
+        "locator": "page.getByText(\"Double Pocket Cotton Long Sleeves Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "relaxedFitCottonShirt": {
+        "locator": "page.getByText(\"Relaxed Fit Cotton Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "casualShirt": {
+        "locator": "page.getByText(\"Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "cottonLinenCasualShirt": {
+        "locator": "page.getByText(\"Cotton Linen Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "opaqueCasualShirt": {
+        "locator": "page.getByText(\"Opaque Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "solidCasualCottonShirt": {
+        "locator": "page.getByText(\"Solid CasualCotton Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menCottonCasualShirt": {
+        "locator": "page.getByText(\"Men Cotton Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menCheckedCottonShirt": {
+        "locator": "page.getByText(\"Men Checked Cotton Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "classicPrintedCasualShirt": {
+        "locator": "page.getByText(\"Classic Printed Casual Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "slimFitCheckedFlannelShirt": {
+        "locator": "page.getByText(\"Slim Fit Checked Flannel Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menSSmartCasualShirts": {
+        "locator": "page.getByText(\"Men's Smart Casual Shirts\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menSCrinkleTexturedShirt": {
+        "locator": "page.getByText(\"Men's Crinkle Textured Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menPackOf2Shirts": {
+        "locator": "page.getByText(\"Men Pack Of 2 Shirts\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "classicCheckedShirt": {
+        "locator": "page.getByText(\"Classic Checked Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menOversizedCottonShirt": {
+        "locator": "page.getByText(\"Men Oversized Cotton Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "regularFitSolidCasualCottonLinenShirt": {
+        "locator": "page.getByText(\"Regular Fit Solid Casual Cotton Linen Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "structuredStripeGeometricShirt": {
+        "locator": "page.getByText(\"Structured Stripe Geometric Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "menStripedCottonShirt": {
+        "locator": "page.getByText(\"Men Striped Cotton Shirt\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "cottonCasualShirts": {
+        "locator": "page.getByText(\"Cotton Casual Shirts\", { exact: true }).first()",
+        "type": "h4",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowOriginalSlimFitOpaqueFormalShirt": {
+        "locator": "page.getByAltText(\"Arrow Original Slim Fit Opaque Formal Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "raymondPureCottonOpaqueFormalShirt": {
+        "locator": "page.getByAltText(\"Raymond Pure Cotton Opaque Formal Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "highlanderMenSlimFitShirt": {
+        "locator": "page.getByAltText(\"HIGHLANDER Men Slim Fit Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterTheLifestyleCoPureTwillCottonCasualShirt": {
+        "locator": "page.getByAltText(\"Roadster The Lifestyle co pure twill cotton casual shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "rareRABBITMenFloralPrintedCasualRegularFitShirt": {
+        "locator": "page.getByAltText(\"RARE RABBIT Men Floral Printed Casual Regular Fit Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterMenBlackPureCottonCasualShirt": {
+        "locator": "page.getByAltText(\"Roadster Men Black Pure Cotton Casual Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "biographMenPrintedCasualShirt": {
+        "locator": "page.getByAltText(\"BIOGRAPH Men Printed Casual Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "nauticaSolidSlimFitShirt": {
+        "locator": "page.getByAltText(\"Nautica Solid Slim Fit Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterMenBlackBlueRegularFitCheckedCasualShirt": {
+        "locator": "page.getByAltText(\"Roadster Men Black & Blue Regular Fit Checked Casual Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "theRoadsterLifestyleCoMenBlackRegularFitPrintedCasualShirt": {
+        "locator": "page.getByAltText(\"The Roadster Lifestyle Co Men Black Regular Fit Printed  Casual Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowManhattanSlimFitSolidPureCottonFormalShirt": {
+        "locator": "page.getByAltText(\"Arrow Manhattan Slim Fit Solid Pure Cotton Formal Shirt\", { exact: true })",
+        "type": "img",
+        "priority": 99,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "clothing2": {
+        "locator": "page.getByText(\"Clothing\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "shirts": {
+        "locator": "page.getByText(\"Shirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowSlimFitOpaqueFormalShirtRs1280Rs209939OFF": {
+        "locator": "page.getByText(\"Arrow Slim Fit Opaque Formal Shirt Rs. 1280Rs. 2099(39% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "raymondPureCottonFormalShirtRs1112Rs209947OFF": {
+        "locator": "page.getByText(\"Raymond Pure Cotton Formal Shirt Rs. 1112Rs. 2099(47% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "highlanderSlimFitOpaqueCasualShirtRs463Rs159971OFF": {
+        "locator": "page.getByText(\"HIGHLANDER Slim Fit Opaque Casual Shirt Rs. 463Rs. 1599(71% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterPureCottonCasualShirtsRs492Rs199975OFF": {
+        "locator": "page.getByText(\"Roadster Pure Cotton Casual Shirts Rs. 492Rs. 1999(75% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "rareRABBITMenVynillShirtRs1719Rs399957OFF": {
+        "locator": "page.getByText(\"RARE RABBIT Men Vynill Shirt Rs. 1719Rs. 3999(57% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterPureCottonCasualShirtRs489Rs139965OFF": {
+        "locator": "page.getByText(\"Roadster Pure Cotton Casual Shirt Rs. 489Rs. 1399(65% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "biographMenSEmbroideredResortShirtRs615Rs269977OFF": {
+        "locator": "page.getByText(\"BIOGRAPH Men's Embroidered Resort Shirt Rs. 615Rs. 2699(77% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "nauticaSolidSlimFitShirtRs1217Rs209942OFF": {
+        "locator": "page.getByText(\"Nautica Solid Slim Fit Shirt Rs. 1217Rs. 2099(42% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterRegularFitCheckedShirtRs588Rs1499Rs911OFF": {
+        "locator": "page.getByText(\"Roadster Regular Fit Checked Shirt Rs. 588Rs. 1499(Rs. 911 OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterMenRegularFitCasualShirtRs509Rs149966OFF": {
+        "locator": "page.getByText(\"Roadster Men Regular Fit Casual Shirt Rs. 509Rs. 1499(66% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowSlimPureCottonFormalShirtRs1159Rs199942OFF": {
+        "locator": "page.getByText(\"Arrow Slim Pure Cotton Formal Shirt Rs. 1159Rs. 1999(42% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "hereNOWSlimFitCasualShirtRs491Rs159969OFF": {
+        "locator": "page.getByText(\"HERE&NOW Slim Fit Casual Shirt Rs. 491Rs. 1599(69% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "newTUSHREEBOUTIQUEMenBlackWhiteCheckShirtRs853Rs199957OFF": {
+        "locator": "page.getByText(\"NEW TUSHREE BOUTIQUE Men Black White Check Shirt Rs. 853Rs. 1999(57% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowSportSlimFitCasualShirtRs1172Rs229949OFF": {
+        "locator": "page.getByText(\"Arrow Sport Slim Fit Casual Shirt Rs. 1172Rs. 2299(49% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterRegularCheckedCasualShirtRs779Rs119935OFF": {
+        "locator": "page.getByText(\"Roadster Regular Checked Casual Shirt Rs. 779Rs. 1199(35% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "mischiefMONKEYMenOpaqueCasualShirtRs709Rs208866OFF": {
+        "locator": "page.getByText(\"MISCHIEF MONKEY Men Opaque Casual Shirt Rs. 709Rs. 2088(66% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowFormalPureCottonShirtRs1231Rs219944OFF": {
+        "locator": "page.getByText(\"Arrow Formal Pure Cotton Shirt Rs. 1231Rs. 2199(44% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterCottonCasualShirtRs593Rs109946OFF": {
+        "locator": "page.getByText(\"Roadster Cotton Casual Shirt Rs. 593Rs. 1099(46% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "newWHITEHUSKGear5BoxyFitShirtRs1176Rs287959OFF": {
+        "locator": "page.getByText(\"NEW WHITE HUSK Gear 5 Boxy Fit Shirt Rs. 1176Rs. 2879(59% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "powerlookDoublePocketCottonLongSleevesShirtRs1203Rs279957OFF": {
+        "locator": "page.getByText(\"Powerlook Double Pocket Cotton Long Sleeves Shirt Rs. 1203Rs. 2799(57% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "louisPhilippeJeansSlimFitCasualShirtRs1179Rs199941OFF": {
+        "locator": "page.getByText(\"Louis Philippe Jeans Slim Fit Casual Shirt Rs. 1179Rs. 1999(41% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "mydesignationRelaxedFitCottonShirtRs399Rs159975OFF": {
+        "locator": "page.getByText(\"MyDesignation Relaxed Fit Cotton Shirt Rs. 399Rs. 1599(75% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "jackJonesCasualShirtRs1149Rs249954OFF": {
+        "locator": "page.getByText(\"Jack & Jones Casual Shirt Rs. 1149Rs. 2499(54% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "bsBLUESQUADCottonLinenCasualShirtRs537Rs199973OFF": {
+        "locator": "page.getByText(\"BS BLUE SQUAD Cotton Linen Casual Shirt Rs. 537Rs. 1999(73% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "donVINOOpaqueCasualShirtRs890Rs199955OFF": {
+        "locator": "page.getByText(\"DON VINO Opaque Casual Shirt Rs. 890Rs. 1999(55% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterSolidCasualCottonShirtRs643Rs139954OFF": {
+        "locator": "page.getByText(\"Roadster Solid CasualCotton Shirt Rs. 643Rs. 1399(54% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterMenCottonCasualShirtRs588Rs1499Rs911OFF": {
+        "locator": "page.getByText(\"Roadster Men Cotton Casual Shirt Rs. 588Rs. 1499(Rs. 911 OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "flyingMachineMenCheckedCottonShirtRs1172Rs229949OFF": {
+        "locator": "page.getByText(\"Flying Machine Men Checked Cotton Shirt Rs. 1172Rs. 2299(49% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "cahootClassicPrintedCasualShirtRs797Rs189958OFF": {
+        "locator": "page.getByText(\"CAHOOT Classic Printed Casual Shirt Rs. 797Rs. 1899(58% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "flyingMachineCasualShirtRs1000Rs249960OFF": {
+        "locator": "page.getByText(\"Flying Machine Casual Shirt Rs. 1000Rs. 2499(60% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterPureCottonCasualShirtRs476Rs139966OFF": {
+        "locator": "page.getByText(\"Roadster Pure Cotton Casual Shirt Rs. 476Rs. 1399(66% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "theBEARHOUSESlimFitCheckedFlannelShirtRs873Rs249565OFF": {
+        "locator": "page.getByText(\"THE BEAR HOUSE Slim Fit Checked Flannel Shirt Rs. 873Rs. 2495(65% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "newGANGSTAMenSSmartCasualShirtsRs1299": {
+        "locator": "page.getByText(\"NEW GANGSTA Men's Smart Casual Shirts Rs. 1299\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "theIndianGarageCoMenCheckedCottonShirtRs495Rs174972OFF": {
+        "locator": "page.getByText(\"The Indian Garage Co Men Checked Cotton Shirt Rs. 495Rs. 1749(72% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "biographMenSCrinkleTexturedShirtRs615Rs269977OFF": {
+        "locator": "page.getByText(\"BIOGRAPH Men's Crinkle Textured Shirt Rs. 615Rs. 2699(77% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "powerlookCasualShirtRs1349Rs299955OFF": {
+        "locator": "page.getByText(\"Powerlook Casual Shirt Rs. 1349Rs. 2999(55% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterMenPackOf2ShirtsRs818Rs2999Rs2181OFF": {
+        "locator": "page.getByText(\"Roadster Men Pack Of 2 Shirts Rs. 818Rs. 2999(Rs. 2181 OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "cahootClassicCheckedShirtRs797Rs189958OFF": {
+        "locator": "page.getByText(\"CAHOOT Classic Checked Shirt Rs. 797Rs. 1899(58% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "cahootMenOversizedCottonShirtRs1139Rs199943OFF": {
+        "locator": "page.getByText(\"CAHOOT Men Oversized Cotton Shirt Rs. 1139Rs. 1999(43% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "mastHarbourRegularFitSolidCasualCottonLinenShirtRs825Rs249967OFF": {
+        "locator": "page.getByText(\"Mast & Harbour Regular Fit Solid Casual Cotton Linen Shirt Rs. 825Rs. 2499(67% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "newRCodeByTheRoadsterLifeCoCasualShirtRs719Rs117939OFF": {
+        "locator": "page.getByText(\"NEW R.Code by The Roadster Life Co. Casual Shirt Rs. 719Rs. 1179(39% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "powerlookStructuredStripeGeometricShirtRs1065Rs259959OFF": {
+        "locator": "page.getByText(\"Powerlook Structured Stripe Geometric Shirt Rs. 1065Rs. 2599(59% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "hereNOWMenStripedCottonShirtRs630Rs199968OFF": {
+        "locator": "page.getByText(\"HERE&NOW Men Striped Cotton Shirt Rs. 630Rs. 1999(68% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterRegularFitCheckedShirtRs629Rs149958OFF": {
+        "locator": "page.getByText(\"Roadster Regular Fit Checked Shirt Rs. 629Rs. 1499(58% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "powerlookCasualShirtRs1410Rs299953OFF": {
+        "locator": "page.getByText(\"Powerlook Casual Shirt Rs. 1410Rs. 2999(53% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterCottonCasualShirtsRs499Rs199975OFF": {
+        "locator": "page.getByText(\"Roadster Cotton Casual Shirts Rs. 499Rs. 1999(75% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "theHouseOfPoloPureCottonCasualShirtRs1109Rs299963OFF": {
+        "locator": "page.getByText(\"The House of Polo Pure Cotton Casual Shirt Rs. 1109Rs. 2999(63% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "arrowPureCottonFormalShirtRs1209Rs219945OFF": {
+        "locator": "page.getByText(\"Arrow Pure Cotton Formal Shirt Rs. 1209Rs. 2199(45% OFF)\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "adidas": {
+        "locator": "page.getByText(\"Adidas\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "fila": {
+        "locator": "page.getByText(\"Fila\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "onlineShopping": {
+        "locator": "page.getByText(\"Online Shopping\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "pepeJeans": {
+        "locator": "page.getByText(\"Pepe Jeans\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "puma": {
+        "locator": "page.getByText(\"Puma\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "unitedColorsOfBenetton": {
+        "locator": "page.getByText(\"United Colors of Benetton\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "fastrack": {
+        "locator": "page.getByText(\"Fastrack\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "shorts": {
+        "locator": "page.getByText(\"Shorts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "beingHuman": {
+        "locator": "page.getByText(\"Being Human\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "skirts": {
+        "locator": "page.getByText(\"Skirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "woodland": {
+        "locator": "page.getByText(\"Woodland\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "supra": {
+        "locator": "page.getByText(\"Supra\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "tShirts2": {
+        "locator": "page.getByText(\"T-shirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "caps": {
+        "locator": "page.getByText(\"Caps\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "backpacks": {
+        "locator": "page.getByText(\"Backpacks\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "flipFlops": {
+        "locator": "page.getByText(\"Flip Flops\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "sunglasses": {
+        "locator": "page.getByText(\"Sunglasses\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "kurtas": {
+        "locator": "page.getByText(\"Kurtas\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "lingerie": {
+        "locator": "page.getByText(\"Lingerie\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "jackets": {
+        "locator": "page.getByText(\"Jackets\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "skechers": {
+        "locator": "page.getByText(\"Skechers\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "pumaTshirts": {
+        "locator": "page.getByText(\"Puma Tshirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "wranglerShirts": {
+        "locator": "page.getByText(\"Wrangler Shirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "adidasTshirts": {
+        "locator": "page.getByText(\"Adidas Tshirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "roadsterShirts": {
+        "locator": "page.getByText(\"Roadster Shirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "casualShoes": {
+        "locator": "page.getByText(\"Casual Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "runningShoes": {
+        "locator": "page.getByText(\"Running Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "nikeSportsShoes": {
+        "locator": "page.getByText(\"Nike Sports Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "jeans": {
+        "locator": "page.getByText(\"Jeans\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "beingHumanTshirts": {
+        "locator": "page.getByText(\"Being Human Tshirts\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "converseShoes": {
+        "locator": "page.getByText(\"Converse Shoes\", { exact: true }).first()",
+        "type": "a",
+        "priority": 5,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "rootrailthumbleftButton": {
+        "locator": "page.locator(\"#rootRailThumbLeft\")",
+        "type": "button",
+        "priority": 4,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    },
+    "rootrailthumbrightButton": {
+        "locator": "page.locator(\"#rootRailThumbRight\")",
+        "type": "button",
+        "priority": 4,
+        "options": [],
+        "state": "searchResultsPage",
+        "page_url": "https://www.myntra.com/black-shirts-for-men?rawQuery=black%20shirts%20for%20men"
+    }
+}

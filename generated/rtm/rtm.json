@@ -1,0 +1,10 @@
+[
+    {
+        "requirement_id": "REQ-001",
+        "requirement": "Modern Ecommerce Product Search and Bag Validation",
+        "scenario_id": "TS_MYNTRA_001",
+        "testcases": [
+            "TC_MYNTRA_001"
+        ]
+    }
+]

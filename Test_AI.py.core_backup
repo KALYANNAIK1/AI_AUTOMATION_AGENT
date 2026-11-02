@@ -1,0 +1,311 @@
+from pathlib import Path
+import py_compile
+import re
+
+
+def replace_once(text, pattern, replacement, description):
+    updated, count = re.subn(
+        pattern,
+        lambda match: replacement,
+        text,
+        count=1,
+        flags=re.MULTILINE,
+    )
+    if count != 1:
+        raise RuntimeError(f"Could not update {description}.")
+    return updated
+
+
+# ==================================================
+# ROOT CAUSE ANALYSIS PRINTING
+# ==================================================
+def print_root_cause_analysis(failure_analysis):
+    category = str(failure_analysis.get("category", "UNKNOWN"))
+    error_type = str(failure_analysis.get("error_type", "Unknown Error"))
+    missing_locator = str(failure_analysis.get("missing_locator", "Unknown"))
+    root_cause = str(
+        failure_analysis.get("root_cause", "Root cause was not identified.")
+    )
+    impact = str(
+        failure_analysis.get("impact", "Impact was not identified.")
+    )
+    suggested_fix = str(
+        failure_analysis.get("suggested_fix", "No suggested fix is available.")
+    )
+    recommendation = str(
+        failure_analysis.get("recommendation", "No recommendation is available.")
+    )
+    confidence = str(failure_analysis.get("confidence", "Unknown"))
+
+    lines = [
+        "",
+        "========================================",
+        "         ROOT CAUSE ANALYSIS",
+        "========================================",
+        f"Category        : {category}",
+        f"Error Type      : {error_type}",
+    ]
+
+    if missing_locator.lower() not in {"", "unknown", "none", "null", "n/a"}:
+        lines.append(f"Missing Locator : {missing_locator}")
+
+    lines.extend(
+        [
+            f"Root Cause      : {root_cause}",
+            f"Impact          : {impact}",
+            f"Suggested Fix   : {suggested_fix}",
+            f"Recommendation  : {recommendation}",
+            f"Confidence      : {confidence}",
+            "========================================",
+        ]
+    )
+
+    print_pink("\n".join(lines))
+
+
+def main():
+    path = Path("Test_AI.py")
+    if not path.is_file():
+        raise FileNotFoundError(
+            "Test_AI.py not found. Run this updater from the Agent_AUTOMATION_AI folder."
+        )
+
+    original = path.read_text(encoding="utf-8")
+    backup = Path("Test_AI.py.core_backup")
+    backup.write_text(original, encoding="utf-8")
+    text = original
+
+    # 1. Correct HTML cleanup and plain URL extraction.
+    helper_pattern = (
+        r"def clean_html_text\(text\):[\s\S]*?"
+        r"\n\ndef extract_runtime_data\(requirement\):"
+    )
+    helper_replacement = '''def clean_html_text(text):
+    if text is None:
+        return ""
+
+    text = html.unescape(str(text)).strip()
+    text = re.sub(
+        r"<br\s*/?>",
+        "
+",
+        text,
+        flags=re.IGNORECASE,
+    )
+    text = re.sub(r"<[^>]+>", "", text)
+    return text.strip()
+
+
+def normalize_url(text):
+    if not text:
+        return None
+
+    text = html.unescape(str(text)).strip()
+
+    href_match = re.search(
+        r'<a[^>]*href=["']([^"']+)["'][^>]*>',
+        text,
+        flags=re.IGNORECASE,
+    )
+    if href_match:
+        return href_match.group(1).strip()
+
+    url_match = re.search(
+        r"https?://[^\s<>"']+",
+        text,
+        flags=re.IGNORECASE,
+    )
+    if url_match:
+        return url_match.group(0).rstrip(".,);")
+
+    return None
+
+
+def extract_runtime_data(requirement):'''
+    text = replace_once(
+        text,
+        helper_pattern,
+        helper_replacement,
+        "HTML and URL helpers",
+    )
+
+    # 2. Email in a table requirement is test data, not automatically a login credential.
+    old_login = '''    requirement_lower = requirement_text.lower()
+    login_context = any(
+        term in requirement_lower
+        for term in (
+            "login",
+            "log in",
+            "sign in",
+            "authentication",
+            "password",
+            "credentials",
+        )
+    )
+
+    login_value = data.get("username")
+    if not login_value and login_context:
+        login_value = data.get("email")
+
+    if login_value:
+        data["login_credential"] = login_value
+'''
+    new_login = '''    requirement_lower = requirement_text.lower()
+    login_context = any(
+        term in requirement_lower
+        for term in (
+            "login",
+            "log in",
+            "sign in",
+            "authentication",
+            "password",
+            "credentials",
+        )
+    )
+
+    login_value = data.get("username")
+    if not login_value and login_context:
+        login_value = data.get("email")
+
+    if login_value:
+        data["login_credential"] = login_value
+'''
+    if old_login not in text:
+        raise RuntimeError("Could not find runtime login-value block.")
+    text = text.replace(old_login, new_login, 1)
+
+    # 3. Remove RCA calls inside the healing loop.
+    text = re.sub(
+        r"\n[ \t]+print_root_cause_analysis\(\s*failure_analysis\s*\)",
+        "",
+        text,
+    )
+
+    # 4. Move/define RCA helper before main so it exists when main executes.
+    main_index = text.find("def main(")
+    guard_index = text.find('if __name__ == "__main__":')
+    misplaced_index = text.find("def print_root_cause_analysis(", main_index)
+
+    if misplaced_index != -1 and guard_index != -1 and misplaced_index < guard_index:
+        text = text[:misplaced_index] + text[guard_index:]
+
+    main_index = text.find("def main(")
+    prefix = text[:main_index]
+    if "def print_root_cause_analysis(" not in prefix:
+        rca_helper = '''# ==================================================
+# ROOT CAUSE ANALYSIS PRINTING
+# ==================================================
+def print_root_cause_analysis(failure_analysis):
+    category = str(failure_analysis.get("category", "UNKNOWN"))
+    error_type = str(failure_analysis.get("error_type", "Unknown Error"))
+    missing_locator = str(failure_analysis.get("missing_locator", "Unknown"))
+    root_cause = str(
+        failure_analysis.get("root_cause", "Root cause was not identified.")
+    )
+    impact = str(
+        failure_analysis.get("impact", "Impact was not identified.")
+    )
+    suggested_fix = str(
+        failure_analysis.get("suggested_fix", "No suggested fix is available.")
+    )
+    recommendation = str(
+        failure_analysis.get("recommendation", "No recommendation is available.")
+    )
+    confidence = str(failure_analysis.get("confidence", "Unknown"))
+
+    lines = [
+        "",
+        "========================================",
+        "         ROOT CAUSE ANALYSIS",
+        "========================================",
+        f"Category        : {category}",
+        f"Error Type      : {error_type}",
+    ]
+
+    if missing_locator.lower() not in {"", "unknown", "none", "null", "n/a"}:
+        lines.append(f"Missing Locator : {missing_locator}")
+
+    lines.extend(
+        [
+            f"Root Cause      : {root_cause}",
+            f"Impact          : {impact}",
+            f"Suggested Fix   : {suggested_fix}",
+            f"Recommendation  : {recommendation}",
+            f"Confidence      : {confidence}",
+            "========================================",
+        ]
+    )
+
+    print_pink("\\n".join(lines))
+
+
+'''
+        text = text[:main_index] + rca_helper + text[main_index:]
+
+    # 5. Ensure the final failure variable exists for PASS and FAIL paths.
+    text = text.replace(
+        '    jira_result = None\n    if final_status == "FAILED":',
+        '    jira_result = None\n    final_failure_analysis = None\n\n'
+        '    if final_status == "FAILED":',
+        1,
+    )
+
+    # 6. Print RCA once at the end, before report opening.
+    if "# FINAL ROOT CAUSE ANALYSIS" not in text:
+        marker = "    report_opened = execution_agent.open_playwright_report("
+        if marker not in text:
+            raise RuntimeError("Could not find final Playwright report-opening block.")
+        final_block = '''    # ==================================================
+    # FINAL ROOT CAUSE ANALYSIS
+    # ==================================================
+    if final_failure_analysis:
+        print_root_cause_analysis(final_failure_analysis)
+
+    if final_status == "PASSED":
+        print_success("\\n===== OVERALL STATUS: PASSED =====")
+    else:
+        print_error("\\n===== OVERALL STATUS: FAILED =====")
+
+    print_info("\\nAll framework processing completed.")
+
+'''
+        text = text.replace(marker, final_block + marker, 1)
+
+    # 7. Replace HTML anchor accidentally embedded in console output.
+    text = re.sub(
+        r'print_info\("<a href="http://127\.0\.0\.1:9323"[\s\S]*?</a>"\)',
+        'print_info("http://127.0.0.1:9323")',
+        text,
+        count=1,
+    )
+
+    # 8. Make unexpected framework errors red.
+    text = text.replace(
+        '        print("\\nUNEXPECTED FRAMEWORK ERROR:")\n'
+        '        print(f"{type(error).__name__}: {error}")',
+        '        print_error("\\nUNEXPECTED FRAMEWORK ERROR:")\n'
+        '        print_error(f"{type(error).__name__}: {error}")',
+        1,
+    )
+
+    path.write_text(text, encoding="utf-8")
+
+    try:
+        py_compile.compile(str(path), doraise=True)
+    except Exception as error:
+        path.write_text(original, encoding="utf-8")
+        raise RuntimeError(
+            "Updated Test_AI.py failed syntax validation. Original restored. "
+            f"Details: {error}"
+        ) from error
+
+    print(f"Updated : {path.resolve()}")
+    print(f"Backup  : {backup.resolve()}")
+    print("Syntax  : PASSED")
+    print("URL     : HTML anchor normalization fixed")
+    print("Runtime : table Email no longer becomes login credential")
+    print("RCA     : prints once after final notification")
+
+
+if __name__ == "__main__":
+    main()

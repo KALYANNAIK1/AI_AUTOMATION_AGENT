@@ -1,0 +1,135 @@
+Feature: Modern Ecommerce Product Search and Bag Validation
+
+URL:
+https://www.myntra.com/
+
+Search Keyword:
+black shirts for men
+
+Preferred Size:
+40
+
+Description:
+
+Validate product search, product selection, size selection, Add to Bag,
+bag-item verification, and product removal in the Myntra ecommerce
+application.
+
+The test must use only controls and elements that are available in the
+application.
+
+The framework must not generate login, username, password, logout,
+registration, or authentication steps.
+
+The framework must not invent locators, URLs, products, sizes, prices,
+messages, or application behavior.
+
+Positive Test Steps:
+
+STEP-001
+Launch the Myntra ecommerce application using the supplied URL.
+
+STEP-002
+Wait until the home page is ready.
+
+STEP-003
+Verify that the application header or Myntra logo is displayed.
+
+STEP-004
+Verify that the product search field is displayed.
+
+STEP-005
+Enter the configured Search Keyword in the product search field.
+
+STEP-006
+Press the Enter key to perform the search.
+
+STEP-007
+Wait until the search-results page is displayed.
+
+STEP-008
+Verify that the current URL or page state represents the search results.
+
+STEP-009
+Verify that the searched-product list or product-results container is displayed.
+
+STEP-010
+Verify that at least one product is displayed in the search results.
+
+STEP-011
+Select the first available product from the search results.
+
+STEP-012
+If the selected product opens in a new browser tab, switch to the newly opened tab.
+
+STEP-013
+Wait until the product-details page is displayed.
+
+STEP-014
+Verify that the selected product name is displayed.
+
+STEP-015
+Verify that the selected product price is displayed.
+
+STEP-016
+Verify that the available-size options are displayed.
+
+STEP-017
+Select size 40 only if size 40 is available for the selected product.
+
+STEP-018
+If size 40 is unavailable, select the first available size and record the selected size for later validation.
+
+STEP-019
+Verify that the Add to Bag button is displayed.
+
+STEP-020
+Click the Add to Bag button.
+
+STEP-021
+Wait until the bag state or item count is updated.
+
+STEP-022
+Verify that the bag icon or bag link is displayed.
+
+STEP-023
+Verify that the bag item count is greater than zero, if an item-count indicator is available.
+
+STEP-024
+Click the bag icon or bag link.
+
+STEP-025
+Wait until the shopping-bag page is displayed.
+
+STEP-026
+Verify that the previously selected product is displayed in the bag.
+
+STEP-027
+Verify that the bag displays the selected product name.
+
+STEP-028
+Verify that the bag displays the selected size.
+
+STEP-029
+Verify that the product price is displayed in the bag.
+
+STEP-030
+Verify that the Remove action is displayed for the selected product.
+
+STEP-031
+Click the Remove action.
+
+STEP-032
+Confirm the removal if the application displays a confirmation dialog.
+
+STEP-033
+Wait until the selected product is removed from the bag.
+
+STEP-034
+Verify that the selected product is no longer displayed in the bag.
+
+STEP-035
+Verify that the bag item count is zero, hidden, or updated appropriately.
+
+STEP-036
+Verify that the empty-bag message is displayed if the application 
